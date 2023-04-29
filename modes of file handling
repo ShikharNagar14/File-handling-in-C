@@ -1,0 +1,46 @@
+#include <stdio.h>
+// FILE HANDLING
+
+// whatever you are giving output after exiting we will lose the output
+// we are using files to save the files after our program terminates
+// *ptr we can read every character of file
+// int main(){
+//     FILE *ptr;
+//     ptr=fopen("shikhar.txt","r");// in read mode we can read only file and i read mode we can;t update file , if you will try to open file write  mode then whole data will be lost
+//     if(ptr){
+//         printf("file opened successfully");
+//     }
+//     else{
+//         printf("file doesn't exists");
+//     }
+
+// }
+
+// int main()
+// {
+//     FILE *ptr;
+//     ptr = fopen("shikhar1.txt", "w");// it will create a new file
+//     if (ptr)
+//     {
+//         printf("file opened successfully");
+//     }
+//     else
+//     {
+//         printf("file doesn't exists");
+//     }
+// }
+
+// int main()
+// {
+//     FILE *ptr;
+//     ptr = fopen("shikhar1.txt", "a");// in append mode content of file will not be deleted
+
+//     if (ptr)
+//     {
+//         printf("file opened successfully");
+//     }
+//     else
+//     {
+//         printf("file doesn't exists");
+//     }
+// }
