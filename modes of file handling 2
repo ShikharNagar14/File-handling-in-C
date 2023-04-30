@@ -1,0 +1,58 @@
+
+//  FTELL fuctions tells us the current position of the  file pointer
+// int main()
+// {
+//     FILE *ptr;
+//     ptr = fopen("shikhar1.txt", "r");
+//      char ch ;
+    // printf("%c", ch);
+    // ch = fgetc(ptr); 
+    // printf("%c", ch);
+
+            // while(ch!=EOF){ 
+            //     ch=fgetc(ptr);
+            //     printf("%c",ch);
+            // }
+
+// printf("%d ",ftell(ptr));
+// rewind(ptr);
+// printf("%d ",ftell(ptr));
+// ch=fgetc(ptr);
+// printf("%d ",ch);
+// fseek  functions is used to move any index of file //  rewind rewinding back to first value of character 
+//  fseek(ptr,2,SEEK_SET);
+ //fseek(ptr,-2,SEEK_END);
+//  fseek(ptr,-2,SEEK_CUR);
+//   ch=fgetc(ptr);
+//  printf("%c",ch);
+
+
+// int main()
+// {
+//     FILE *ptr;
+//     ptr = fopen("shikhar1.txt", "a");
+//      char ch;
+//     // printf("%c", ch);
+//     // ch = fgetc(ptr); 
+//     // printf("%c", ch);
+
+//             while(ch!=EOF){ 
+//                 ch=fgetc(ptr);
+//                 printf("%c",ch);
+//             }
+
+// printf("%d",ftell(ptr));
+// fseek(ptr,6,SEEK_END);
+// fputs("Sharma",ptr);
+// }
+
+// int main(){
+//     FILE *ptr1 ,*ptr2;
+//     ptr1=fopen("Shikhar.txt","r");
+//     ptr2=fopen("shikhar1.txt","w");
+//     char ch;
+//     while(ch!=EOF){
+//         ch=fgetc(ptr1);
+//         fputc(ch,ptr2);
+//     }
+// }
